@@ -50,7 +50,7 @@ func handleRequest(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	remote, err := url.Parse("http://youtube.com")
+	remote, err := url.Parse("https://www.youtube.com/")
 	if err != nil {
 		panic(err)
 	}
