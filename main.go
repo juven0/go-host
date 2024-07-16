@@ -81,7 +81,7 @@ var (
 func init() {
 	// Spécifiez l'URL de base ici
 	var err error
-	baseURL, err = url.Parse("http://example.com") // Remplacez par votre URL de base
+	baseURL, err = url.Parse("https://www.youtube.com") // Remplacez par votre URL de base
 	if err != nil {
 		log.Fatalf("Error parsing base URL: %v", err)
 	}
